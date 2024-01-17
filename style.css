@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
-body{
-    font-family:Assistant;
-    color:white;
-    background-color: #363537;
+@import url("https://fonts.googleapis.com/css2?family=Assistant&display=swap");
+body {
+  font-family: Assistant;
+  color: white;
+  background-color: #363537;
 }
-h1{
-    font-size:40px;
-    margin-top: 0;
-    margin-bottom: 0;
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
-hr{
-    height:5px;
-    background-color: black;
-    border-color: black;
+hr {
+  height: 5px;
+  background-color: black;
+  border-color: black;
 }
