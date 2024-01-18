@@ -3,6 +3,8 @@ body {
   font-family: Assistant;
   color: white;
   background-color: #363537;
+  display: grid;
+
 }
 h1 {
   font-size: 40px;
@@ -14,3 +16,4 @@ hr {
   background-color: black;
   border-color: black;
 }
+
