@@ -8,9 +8,12 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="title">
     <h1>Roll Roll Roll Your Dice</h1>
-    <hr />
+    <hr/>
+    </div>
 
+ 
     <form id="form">
       <label>Amount of Dice (1-3):</label>
       <input id="diceInput" type="number" min="1" max="3" value="1" />
@@ -19,11 +22,18 @@
       <input id="rollInput" type="number" min="1" value="1" />
     </form>
 
-    <p id="d1">0</p>
-    <p id="d2">0</p>
-    <p id="d3">0</p>
 
-    <button id="rollbutt">Roll</button>
+    <img  class="dice1" src="die.png">
+    <p class="dice1" id="d1">0</p>
+
+    <img class="dice2" src="die.png">
+    <p class="dice2" id="d2">0</p>
+
+    <img class="dice3" src="die.png">
+    <p class="dice3" id="d3">0</p>
+
+
+    <div id="statsDiv">
     <p>STATS:</p>
     <table>
       <tr>
@@ -51,7 +61,10 @@
         <td id="Triples"></td>
       </tr>
     </table>
-<div>
+ </div>
+    
+
+<div id="freqDiv">
       <p>FREQUENCIES:</p>
       
     <table id="freqTable">
@@ -59,7 +72,7 @@
         <th>Number</th>
         <th>Frequency</th>
       </tr>
-      <!--<tr id="onee">
+      <tr id="onee">
         <td>One</td>
         <td id="One"></td>
       </tr>
@@ -131,10 +144,11 @@
         <td>Eighteen</td>
         <td id="Eighteen"></td>
       </tr>
-        !-->
+
     </table>
 </div>
 
+      <button id="rollbutt">Roll</button>
 
 
 

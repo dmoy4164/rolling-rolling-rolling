@@ -112,11 +112,16 @@ function roll() {
   }
   update2();
   update3();
-  freqUpdate();
-  
+freqUpdate();
+ // makeTable();
 }
 
-function makeTable(){
+function makeTable(){ //1 die: 1-6 ; 2 dice: 2-12 ; 3 dice: 3-18 ; all of them have 3-6
+// var newRow = freqTable.insertRow();
+// var newCell = newRow.insertCell();
+// newCell.innerHTML = "Three";
+// newCell = newRow.insertCell();
+// newCell.innerHTML = three;
 
 }
 
@@ -202,23 +207,24 @@ let freqArray = [{name:'One', val: one}, {name: 'Two', val: two}, {name: 'Three'
   {name: 'Twelve', val: twelve}, {name: 'Thirteen', val: thirteen}, {name: 'Fourteen', val: fourteen}, {name: 'Fifteen', val: fifteen}, {name: 'Sixteen', val: sixteen},
    {name: 'Seventeen', val: seventeen}, {name: 'Eighteen', val: eighteen}];
   
-//function freqUpdate() {
-//  //FREQUENCIES//
-//  One.innerText = one;
-//  Two.innerText = two;
-//  Three.innerText = three;
-//  Four.innerText = five;
-//  Six.innerText = six;
-//  Seven.innerText = seven;
-//  Eight.innerText = eight;
-//  Nine.innerText = nine;
-//  Ten.innerText = ten;
-//  Eleven.innerText = eleven;
-//  Twelve.innerText = twelve;
-//  Thirteen.innerText = thirteen;
-//  Fourteen.innerText = fourteen;
-//  Fifteen.innerText = fifteen;
-//  Sixteen.innerText = sixteen;
-//  Seventeen.innerText = seventeen;
-//  Eighteen.innerText = eighteen;
-//}
+function freqUpdate() {
+  //FREQUENCIES//
+  One.innerText = one;
+  Two.innerText = two;
+  Three.innerText = three;
+  Four.innerText = four;
+  Five.innerText = five;
+  Six.innerText = six;
+  Seven.innerText = seven;
+  Eight.innerText = eight;
+  Nine.innerText = nine;
+  Ten.innerText = ten;
+  Eleven.innerText = eleven;
+  Twelve.innerText = twelve;
+  Thirteen.innerText = thirteen;
+  Fourteen.innerText = fourteen;
+  Fifteen.innerText = fifteen;
+  Sixteen.innerText = sixteen;
+  Seventeen.innerText = seventeen;
+  Eighteen.innerText = eighteen;
+}
